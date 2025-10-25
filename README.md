@@ -1,5 +1,5 @@
 # PCB Edge USB C Connector Library
-Use your PCB itself as a USB C connector! Including 10 and 14 Pin versions. This repo includes a KiCAD and EasyEDA library.
+Use your PCB itself as a USB C connector! This repo includes a KiCAD and EasyEDA library containing 10 and 14 Pin versions.
 
 <p align="center">  <img src="PCB_Type_C.jpg"/>   </p>
 
