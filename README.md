@@ -1,7 +1,7 @@
 # PCB Edge USB C Connector Library
 Use your PCB itself as a USB C connector! This repo includes a KiCAD and EasyEDA library containing 10, 14, and 24 Pin versions.
 
-<p align="center">  <img src="media/PCB_Type_C.jpg"/>   </p>
+<p align="center">  <img src="Media/PCB_Type_C.jpg"/>   </p>
 
 Note: this is a female/port connector, you need to use a USB C cable with it. USB drives and cables have male/plug connectors.
 
@@ -22,36 +22,36 @@ Some tests were done to verify the ability of this connector, photos and videos 
 
 ### Contact wear
 One mating cycle
-<p align="center">  <img src="media/single_insertion_wear_contacts.jpg"/>   </p>
-<p align="center">  <img src="media/single_insertion_wear_contacts_3.jpg"/>   </p>
+<p align="center">  <img src="Media/single_insertion_wear_contacts.JPG"/>   </p>
+<p align="center">  <img src="Media/single_insertion_wear_contacts_3.JPG"/>   </p>
 
 100 mating cycles without power, 5 mating cycles at 6V 5A (resistive load with long leads), and 5 mating cycles at 20V 1.5A
-<p align="center">  <img src="media/110_insertion_wear_contacts_5.jpg"/>   </p>
-<p align="center">  <img src="media/110_insertion_wear_contacts_11.jpg"/>   </p>
+<p align="center">  <img src="Media/110_insertion_wear_contacts_5.JPG"/>   </p>
+<p align="center">  <img src="Media/110_insertion_wear_contacts_11.JPG"/>   </p>
 
 ### Latch wear
 After one mating cycle
-<p align="center">  <img src="media/single_insertion_wear_latch.jpg"/>   </p>
+<p align="center">  <img src="Media/single_insertion_wear_latch.JPG"/>   </p>
 
 After 110 mating cycles, there is significant wear and the cable holds its place but is easy to unlatch. Note that the latch may be grounded, so by wearing into the side of the board, it might come in contact with inner planes. It would be better to not allow power planes near the latch edges.
-<p align="center">  <img src="media/110_insertion_wear_latch.jpg"/>   </p>
+<p align="center">  <img src="Media/110_insertion_wear_latch.JPG"/>   </p>
 
 ### Bend and break
 Side to side and twisting movement is very minimal. Without the metal shell or the additional midplane thickness, there is a lot of "up and down" movement possible.
-<p align="center">  <img src="media/flex_test.jpg"/>   </p>
+<p align="center">  <img src="Media/flex_test.jpg"/>   </p>
 
 0.1 Nm is enough to snap this connector on the tested 0.6 mm PCB, after significant deflection. Only some layers of the PCB break and the conenctor can still be inserted and removed (test can be seen in a video in Media)
-<p align="center">  <img src="media/snap_test_torque.jpg"/>   </p>
+<p align="center">  <img src="Media/snap_test_torque.JPG"/>   </p>
 
 Due to the top layer being intact, the port is still useable, but may need a cable flip
-<p align="center">  <img src="media/snap_test_contact.jpg"/>   </p>
+<p align="center">  <img src="Media/snap_test_contact.jpg"/>   </p>
 
 ### Thermal
 A 15 minute thermal soak test was ran at 5A after 100 mating cycles, and showed a temperature rise of 30-40 C. The cable used had an integrated LED display and an LDO, and the design used a PMOS that got warm too, so it is hard to isolate the thermal performance of this port.
-<p align="center">  <img src="media/thermal_test_15_min_at_5a.JPG"/>   </p>
+<p align="center">  <img src="Media/thermal_test_15_min_at_5A.jpg"/>   </p>
 
 A video in the Media folder shows the moment the connector is disconnected without stopping the load. No significant heating is obvious on the individual traces
-<p align="center">  <img src="media/thermal_test_15_min_at_5a_unplug.JPG"/>   </p>
+<p align="center">  <img src="Media/thermal_test_15_min_at_5A_unplug.jpg"/>   </p>
 
 
 ## Import instructions
