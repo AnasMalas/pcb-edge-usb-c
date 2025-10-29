@@ -1,0 +1,1 @@
+To use this library in EasyEDA pro, import the .elibz files, or search the common library for "PCBTypeC_10P" or "PCBTypeC_14P" to add the symbol to your schematic.

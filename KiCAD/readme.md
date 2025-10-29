@@ -1,0 +1,1 @@
+To use this library in kicad, download the zip file, open the Plugin and Content Manager (PCM), click "Install from file" and choose the zip file.
